@@ -35,16 +35,33 @@ main {
             height: 275px;
             background: linear-gradient(205deg, #fffcc4 0%, #ebcf78 53%, #c29222 68%, #a17a1c 100%);
             margin: 253px 0 0 0;
+            // .line {
+            //     position: absolute;
+            //     width: 866px;
+            //     height: 251px;
+            //     border: 2px solid transparent;
+            //     -moz-border-image: -moz-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+            //     -webkit-border-image: -webkit-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+            //     border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+            //     border-image-slice: 1;
+            //     margin: 11px 0 0 11px;
+            // }
             .line {
                 position: absolute;
-                width: 866px;
+                width: 872px;
                 height: 251px;
-                border: 2px solid transparent;
-                -moz-border-image: -moz-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
-                -webkit-border-image: -webkit-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
-                border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
-                border-image-slice: 1;
                 margin: 11px 0 0 11px;
+                background: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+                .lbg {
+                    position: absolute;
+                    width: 865px;
+                    height: 245px;
+                    background: #fff;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    background: linear-gradient(205deg, #fffcc4 0%, #ebcf78 53%, #c29222 68%, #a17a1c 100%);
+                }
             }
         }
         .logo {
@@ -83,7 +100,7 @@ main {
             position: absolute;
             width: 285px;
             height: 204px;
-            left: 586px;
+            left: 570px;
             top: 288px;
             .t {
                 width: 285px;
