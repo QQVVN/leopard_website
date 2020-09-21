@@ -87,15 +87,15 @@ main article .inbg {
 }
 main article .inbg .line {
   position: absolute;
-  width: 872px;
+  width: 868px;
   height: 251px;
   margin: 11px 0 0 11px;
   background: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
 }
 main article .inbg .line .lbg {
   position: absolute;
-  width: 865px;
-  height: 245px;
+  width: 860px;
+  height: 244px;
   background: #fff;
   left: 50%;
   top: 50%;
