@@ -43,6 +43,15 @@ main {
             border: 2px solid transparent;
             border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
             border-image-slice: 1;
+            margin: 265px 0 0 11px;
+        }
+        .line2 {
+            position: absolute;
+            width: 866px;
+            height: 251px;
+            border: 2px solid transparent;
+            border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+            border-image-slice: 1;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
