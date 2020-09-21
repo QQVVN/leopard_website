@@ -40,6 +40,8 @@ main {
                 width: 866px;
                 height: 251px;
                 border: 2px solid transparent;
+                -moz-border-image: -moz-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+                -webkit-border-image: -webkit-linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
                 border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
                 border-image-slice: 1;
                 margin: 11px 0 0 11px;
