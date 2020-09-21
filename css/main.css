@@ -58,3 +58,91 @@ input {
   border: 0;
   padding: 0;
 }
+
+html {
+  font-family: Microsoft JhengHei;
+  background: #180034;
+  min-width: 1000px;
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  min-width: 1000px;
+  height: 980px;
+  overflow: hidden;
+}
+main article {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+main article .inbg {
+  position: absolute;
+  width: 1000px;
+  height: 275px;
+  background: linear-gradient(205deg, #fffcc4 0%, #ebcf78 53%, #c29222 68%, #a17a1c 100%);
+  margin: 253px 0 0 0;
+}
+main article .line {
+  position: absolute;
+  width: 976px;
+  height: 251px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
+  border-image-slice: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 391px 0 0 0;
+}
+main article .logo {
+  position: absolute;
+  width: 851px;
+  height: 643px;
+  left: -105px;
+  background: url(../images/logo.png) no-repeat top center;
+  background-size: 100%;
+}
+main article .text {
+  position: absolute;
+  width: 357px;
+  height: 206px;
+  left: 555px;
+  top: 36px;
+  background: url(../images/text.png) no-repeat top center;
+  background-size: 100%;
+}
+main article .clound {
+  position: absolute;
+  width: 1079px;
+  height: 575px;
+  left: -33px;
+  top: 111px;
+  background: url(../images/clound.png) no-repeat top center;
+  background-size: 100%;
+}
+main .bg {
+  position: absolute;
+  background: url(../images/bg.jpg) no-repeat top center;
+  background-size: 1920px;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
+}
+
+.iebg {
+  display: none;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .iebg {
+    display: block;
+    position: absolute;
+    background: url(../images/bg.jpg) no-repeat top center;
+    background-size: 1920px;
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+  }
+}
