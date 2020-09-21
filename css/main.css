@@ -62,32 +62,32 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #180034;
-  min-width: 1000px;
+  min-width: 1100px;
   height: 100%;
   overflow: hidden;
 }
 
 main {
   position: relative;
-  min-width: 1000px;
+  min-width: 1100px;
   height: 980px;
   overflow: hidden;
 }
 main article {
   position: relative;
-  width: 1000px;
+  width: 990px;
   margin: 0 auto;
 }
 main article .inbg {
   position: absolute;
-  width: 1000px;
+  width: 990px;
   height: 275px;
   background: linear-gradient(205deg, #fffcc4 0%, #ebcf78 53%, #c29222 68%, #a17a1c 100%);
   margin: 253px 0 0 0;
 }
 main article .line {
   position: absolute;
-  width: 976px;
+  width: 966px;
   height: 251px;
   border: 2px solid transparent;
   border-image: linear-gradient(205deg, #e3bc70 0%, #8b6524 100%);
@@ -118,7 +118,7 @@ main article .text {
 }
 main article .clound {
   position: absolute;
-  width: 1079px;
+  width: 1049px;
   height: 575px;
   left: -33px;
   top: 111px;
