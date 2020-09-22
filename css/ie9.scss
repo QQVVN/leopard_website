@@ -1,0 +1,46 @@
+main {
+    article {
+        .inbg {
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#a17a1c, endColorstr=#fffcc4);
+            .line {
+                filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#8b6524, endColorstr=#e3bc70);
+                .lbg {
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#a17a1c, endColorstr=#fffcc4);
+                }
+            }
+        }
+        .login {
+            .t {
+                .n,
+                .o {
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#7fd12e, endColorstr=#064500);
+                    &:hover,
+                    &:active,
+                    &.active {
+                        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#401e00, endColorstr=#bd5900);
+                    }
+                }
+            }
+            .b {
+                .in {
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#080738, endColorstr=#263af5);
+                    &:hover,
+                    &:active,
+                    &.active {
+                        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#19179b, endColorstr=#4255fc);
+                    }
+                }
+            }
+        }
+    }
+}
+.iebg {
+    display: block;
+    position: absolute;
+    background: url(../images/bg.jpg);
+    width: 1920px;
+    height: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -20;
+}
